@@ -14,4 +14,7 @@ function after(timesToCall, callback) {
 
 
 const myAfterFunc = after(3, () => console.log('test'));
-
+myAfterFunc(); // prints
+myAfterFunc(); // prints
+myAfterFunc(); // prints
+myAfterFunc(); // prints nothing
